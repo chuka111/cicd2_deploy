@@ -1,6 +1,6 @@
 services:
   service_a:
-    image: ghcr.io/chuka111/lab6_service_a/service_b:latest
+    image: ghcr.io/chuka111/lab6_service_a/service_a:latest
     ports:
       - "8001:8000"
     networks:
